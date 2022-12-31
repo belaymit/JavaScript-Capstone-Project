@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/1bc3a7e061.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="./index.js"></script>
+    <title>Microverse Capstone Project-II</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <a href="index.html">
+            <img
+              src="./assets/favicon-images/logo.jpg"
+              class="logo"
+              alt="movies-logo"
+            />
+            <h2>Movies</h2>
+          </a>
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <ul class="links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="about.html">Shown</a>
+          </li>
+          <li>
+            <a href="projects.html">Gallery</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="movie-section" id="movies">
+      <div class="box-container">
+        <div class="box">
+          <div class="box-img">
+            <img
+              src="./assets/favicon-images/wakanda-forever.webp"
+              alt="wakanda-forever"
+            />
+          </div>
+          <div class="box-desc">
+            <h3>Movie 1</h3>
+            <div class="likes">
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+              <small>5 likes</small>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button type="button" class="btn" id="btn-comments">
+              comments
+            </button>
+            <button type="button" class="btn">Reservation</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img
+              src="./assets/favicon-images/wakanda-forever.webp"
+              alt="wakanda-forever"
+            />
+          </div>
+          <div class="box-desc">
+            <h3>Movie 1</h3>
+            <div class="likes">
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+              <small>5 likes</small>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button type="button" class="btn">comments</button>
+            <button type="button" class="btn">Reservation</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img
+              src="./assets/favicon-images/wakanda-forever.webp"
+              alt="wakanda-forever"
+            />
+          </div>
+          <div class="box-desc">
+            <h3>Movie 1</h3>
+            <div class="likes">
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+              <small>5 likes</small>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button type="button" class="btn">comments</button>
+            <button type="button" class="btn">Reservation</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img
+              src="./assets/favicon-images/wakanda-forever.webp"
+              alt="wakanda-forever"
+            />
+          </div>
+          <div class="box-desc">
+            <h3>Movie 1</h3>
+            <div class="likes">
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+              <small>5 likes</small>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button type="button" class="btn">comments</button>
+            <button type="button" class="btn">Reservation</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="popup-section">
+      <div class="popup-container">
+        <button type="button" class="btn movie-close-btn" id="movie-close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="popup-img">
+          <img
+            src="./assets/favicon-images/wakanda-forever.webp"
+            alt="wakanda-forever"
+          />
+        </div>
+        <div class="title-description">
+          <h3>Movie Title</h3>
+          <div class="popup-description">
+            <p>Movie 1: something</p>
+            <p>Movie 1: something</p>
+            <p>Movie 1: something</p>
+            <p>Movie 1: something</p>
+          </div>
+        </div>
+        <div class="popup-comments">
+          <h3>Comments(2)</h3>
+          <div class="list-of-comments">
+            <p>12/29/2022: Someone commented yesterday</p>
+            <p>12/30/2022: Someone commented today</p>
+          </div>
+        </div>
+        <div class="add-comments">
+          <h3>Add Comments</h3>
+          <div class="input-field">
+            <input
+              type="text"
+              placeholder="Your name"
+              class="input"
+              name="name"
+            />
+          </div>
+          <div class="input-field">
+            <textarea
+              name="text-area"
+              id="text-area"
+              class="input"
+              cols="30"
+              rows="5"
+              placeholder="Your comments"
+            ></textarea>
+          </div>
+        </div>
+        <div class="btn-container">
+          <button type="button" class="btn">comments</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
