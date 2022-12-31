@@ -20,7 +20,6 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
-    <script type="module" src="./index.js"></script>
     <title>Microverse Capstone Project-II</title>
   </head>
   <body>
@@ -57,5 +56,141 @@
         </ul>
       </div>
     </nav>
+    <section class="movie-section" id="movies">
+      <div class="box-container">
+        <div class="box">
+          <div class="box-img">
+            <img
+              src="./assets/favicon-images/wakanda-forever.webp"
+              alt="wakanda-forever"
+            />
+          </div>
+          <div class="box-desc">
+            <h3>Movie 1</h3>
+            <div class="likes">
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+              <small>5 likes</small>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button type="button" class="btn" id="btn-comments">
+              comments
+            </button>
+            <button type="button" class="btn">Reservation</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img
+              src="./assets/favicon-images/wakanda-forever.webp"
+              alt="wakanda-forever"
+            />
+          </div>
+          <div class="box-desc">
+            <h3>Movie 1</h3>
+            <div class="likes">
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+              <small>5 likes</small>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button type="button" class="btn">comments</button>
+            <button type="button" class="btn">Reservation</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img
+              src="./assets/favicon-images/wakanda-forever.webp"
+              alt="wakanda-forever"
+            />
+          </div>
+          <div class="box-desc">
+            <h3>Movie 1</h3>
+            <div class="likes">
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+              <small>5 likes</small>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button type="button" class="btn">comments</button>
+            <button type="button" class="btn">Reservation</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-img">
+            <img
+              src="./assets/favicon-images/wakanda-forever.webp"
+              alt="wakanda-forever"
+            />
+          </div>
+          <div class="box-desc">
+            <h3>Movie 1</h3>
+            <div class="likes">
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+              <small>5 likes</small>
+            </div>
+          </div>
+          <div class="btn-container">
+            <button type="button" class="btn">comments</button>
+            <button type="button" class="btn">Reservation</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="popup-section">
+      <div class="popup-container">
+        <button type="button" class="btn movie-close-btn" id="movie-close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="popup-img">
+          <img
+            src="./assets/favicon-images/wakanda-forever.webp"
+            alt="wakanda-forever"
+          />
+        </div>
+        <div class="title-description">
+          <h3>Movie Title</h3>
+          <div class="popup-description">
+            <p>Movie 1: something</p>
+            <p>Movie 1: something</p>
+            <p>Movie 1: something</p>
+            <p>Movie 1: something</p>
+          </div>
+        </div>
+        <div class="popup-comments">
+          <h3>Comments(2)</h3>
+          <div class="list-of-comments">
+            <p>12/29/2022: Someone commented yesterday</p>
+            <p>12/30/2022: Someone commented today</p>
+          </div>
+        </div>
+        <div class="add-comments">
+          <h3>Add Comments</h3>
+          <div class="input-field">
+            <input
+              type="text"
+              placeholder="Your name"
+              class="input"
+              name="name"
+            />
+          </div>
+          <div class="input-field">
+            <textarea
+              name="text-area"
+              id="text-area"
+              class="input"
+              cols="30"
+              rows="5"
+              placeholder="Your comments"
+            ></textarea>
+          </div>
+        </div>
+        <div class="btn-container">
+          <button type="button" class="btn">comments</button>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="./index.js"></script>
   </body>
 </html>
